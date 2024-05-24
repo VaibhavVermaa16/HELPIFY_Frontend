@@ -1,0 +1,168 @@
+.services-background {
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background: rgb(255, 255, 255);
+    color: white;
+  }
+  
+  .services-container {
+    background: rgb(255, 255, 255);
+    color: white;
+    height: 100%;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .servicesTitle {
+    color: black;
+    font-family: "Poppins", "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    border-bottom: 3px solid #18d398;
+    display: inline-block;
+  }
+  
+  .text12 {
+    font-family: "Poppins", "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+  }
+  
+  .service1 {
+    background-color: rgb(204, 230, 255);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 10px;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    margin: 4%;
+    box-sizing: border-box;
+  }
+  
+  .service1 h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #21194d;
+    margin: 0;
+    font-family: "Poppins", "Quicksand", Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+  }
+  
+  .service1-card {
+    color: white;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .workerCard img {
+    height: 50%;
+    width: 80%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 15px;
+    background-color: rgb(250, 250, 250);
+  }
+  
+  .workerCard img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .workerCard {
+    height: 100%;
+    width: 23%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(59, 130, 201);
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png");
+    background-size: cover;
+    padding: 15px 10px 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .workerCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .workerCard h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .workerCard p {
+    font-size: 1em;
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  .workerCard button {
+    background-color: #ffffff;
+    color: rgb(29, 111, 193);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .workerCard button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(29, 111, 193);
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .services-container {
+      height: auto;
+    }
+    .service1 {
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .service1 h3 {
+      font-size: 1.5em;
+    }
+  }
+  footer{
+  
+      position : absolute ;
+  }

@@ -1,0 +1,222 @@
+.containerss {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+#1 {
+    display: inline;
+}
+
+#2 {
+    height: 3%;
+    width: 3%;
+    margin-left: 65%;
+    margin-bottom: 10%;
+    border: #975d5d solid 2px;
+}
+
+#top {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 400%;
+    color: #1b4965;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    border: 2px solid #367fb3;
+    background-color: #ade1e3;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#image1 {
+    height: 60%;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+#para1 {
+    text-align: center;
+    color: #FFFFFF; /* White color */
+    text-decoration-color: rgb(255, 255, 255);
+    padding-left: 13%;
+}
+
+.container20 {
+    /* background-color: rgb(108, 215, 215); */
+    background-color: rgb(128, 208, 199);
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-inline-end: 2%;
+    gap: 10px;
+}
+
+#logoimage {
+    height: 90%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#farmer1 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 45%;
+    border-radius: 20%;
+    padding-bottom: 2%;
+}
+
+#image2 {
+    border-radius: 20%;
+    margin-top: 30%;
+    margin-left: 5%;
+    height: 40%;
+}
+#image3{
+    padding: 2%;
+}
+#newdiv {
+    margin-left: 30%;
+    margin-bottom: -5%;
+    margin-top: 3%;
+    /* height: 85%; */
+}
+
+#small {
+    font-size: medium;
+}
+
+#seconddiv {
+    display: flex;
+    height: 48%;
+    width: 100%;
+    flex-direction: row;
+    justify-items: center;
+    background-color: #e2e9ea;
+    border-radius: 10px;
+    padding: 2%;
+    padding-right: 0;
+    margin-top: 10%;
+    text-decoration-color: #000000;
+}
+#mission {
+    height: 25%;
+    
+}
+#values {
+    display: inline;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+}
+
+.container3 {
+    /* background-color: rgb(90, 155, 185); */
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(15deg, #b0ded3 0%, #80d0c7 100%); */
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.groupteam {
+    display: flex;
+    height: 300px;
+    width: 280px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.groupteam2 {
+    text-align: center;
+    margin-left: 50%; /* Adjust this value as needed */
+    /* margin-top: 5px; */
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; /* Coral color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* background-color: #F0F8FF; AliceBlue background */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth scale transition */
+}
+
+.groupteam2:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.groupteam2 img {
+    display: block;
+    margin: auto;
+}
+
+.groupteam3 {
+    display: flex;
+    height: 30%;
+    width: 280px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+#meet {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: #13547a;
+    text-decoration: wavy;
+    text-shadow: 2px 2px 4px #80d0c7;
+    padding-top: 1%;
+}
+
+@media screen and (max-width: 80%) {
+    #mission,
+    #values {
+        display: none;
+    }
+}
+
+#believe {
+    color: rgb(46, 18, 82);
+}
+
+#cli {
+    color: rgb(57, 57, 49);
+}
+
+.ourteamheading {
+    height: 50%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    background-color: #f1fcfb;
+    color:#253478;
+}
